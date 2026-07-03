@@ -1,0 +1,61 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Environments
+/.venv/
+/venv/
+/env/
+/.conda/
+
+# Editors
+.idea/
+.vscode/
+.DS_Store
+
+# Data and large artifacts
+/data/
+/.qlib/
+/qlib_data/
+/cn_data*/
+/*_raw/
+*.bin
+*.pkl
+*.pt
+*.pth
+*.ckpt
+*.npz
+
+# Experiment outputs
+/out/
+/out1/
+/out_*/
+/logs/
+/tb_logs/
+/runs/
+/runs_newdata/
+/backtests/
+/results/
+/checkpoints/
+positions.csv
+daily_report.csv
+scores.csv
+
+# Thesis local artifacts
+paper/**/*.docx
+paper/**/*.pdf
+paper/backtests/
+paper/figures/learning_curves/
+
+# Remote/local scratch
+/_remote_*/
+/archive/
+*.bak
+*.tmp
+*_tmp*
+nohup.out
